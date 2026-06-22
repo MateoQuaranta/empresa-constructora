@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://empresa-constructora.vercel.app/sitemap.xml

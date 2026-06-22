@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" role="img" aria-label="Nordelta Sur">
+  <rect x="10" y="18" width="36" height="26" fill="none" stroke="#555" stroke-width="2"/>
+  <rect x="18" y="26" width="20" height="18" fill="#555" opacity="0.2"/>
+  <text x="56" y="30" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#555">NORDELTA</text>
+  <text x="56" y="47" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="400" letter-spacing="2" fill="#143C64">SUR</text>
+</svg>

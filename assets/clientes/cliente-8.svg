@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" role="img" aria-label="Lumina Real Estate">
+  <g>
+    <circle cx="28" cy="26" r="10" fill="none" stroke="#143C64" stroke-width="2"/>
+    <line x1="28" y1="14" x2="28" y2="10" stroke="#143C64" stroke-width="2"/>
+    <line x1="38" y1="17" x2="41" y2="14" stroke="#143C64" stroke-width="2"/>
+    <line x1="40" y1="26" x2="44" y2="26" stroke="#143C64" stroke-width="2"/>
+    <line x1="18" y1="17" x2="15" y2="14" stroke="#143C64" stroke-width="2"/>
+    <line x1="16" y1="26" x2="12" y2="26" stroke="#143C64" stroke-width="2"/>
+    <rect x="22" y="36" width="12" height="12" rx="1" fill="#143C64" opacity="0.3"/>
+  </g>
+  <text x="54" y="28" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#143C64">LUMINA</text>
+  <text x="54" y="46" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" letter-spacing="1.5" fill="#555">REAL ESTATE</text>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "empresa-constructora",
+  "version": "1.0.0",
+  "description": "Sitio web de Empresa Constructora",
+  "scripts": {
+    "dev": "npx serve . -p 3000 --no-clipboard",
+    "start": "npx serve . -p 3000"
+  },
+  "keywords": ["construccion", "arquitectura", "obras"],
+  "author": "Empresa Constructora",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "serve": "^14.2.3"
+  }
+}

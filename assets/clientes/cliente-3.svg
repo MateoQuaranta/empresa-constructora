@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 60" role="img" aria-label="Vialco Ingeniería">
+  <g>
+    <line x1="10" y1="44" x2="46" y2="44" stroke="#143C64" stroke-width="3"/>
+    <line x1="10" y1="44" x2="28" y2="18" stroke="#143C64" stroke-width="3"/>
+    <line x1="46" y1="44" x2="28" y2="18" stroke="#143C64" stroke-width="3"/>
+    <circle cx="28" cy="18" r="3" fill="#143C64"/>
+  </g>
+  <text x="58" y="30" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5" fill="#143C64">VIALCO</text>
+  <text x="58" y="47" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="400" letter-spacing="1.5" fill="#555">INGENIERÍA</text>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "name": "Empresa Constructora",
+  "short_name": "Empresa Constructora",
+  "description": "Constructora integral en Buenos Aires",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#143C64",
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

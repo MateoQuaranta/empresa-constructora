@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Empresa Constructora | Obras Hospitalarias, Comerciales y Residenciales — Buenos Aires</title>
+  <meta name="description" content="Constructora integral con más de 15 años. Especialistas en obras hospitalarias de alta complejidad, comerciales, industriales y residenciales en Buenos Aires." />
+  <meta name="keywords" content="constructora buenos aires, obras hospitalarias, construccion comercial, diseño arquitectura, CABA, Buenos Aires" />
+  <meta name="author" content="Empresa Constructora" />
+  <link rel="canonical" href="https://empresa-constructora.vercel.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://empresa-constructora.vercel.app/" />
+  <meta property="og:title"       content="Empresa Constructora | +15 años construyendo" />
+  <meta property="og:description" content="Constructora integral especializada en obras hospitalarias, comerciales e industriales en Buenos Aires." />
+  <meta property="og:image"       content="https://empresa-constructora.vercel.app/assets/og-image.jpg" />
+  <meta property="og:locale"      content="es_AR" />
+
+  <!-- PWA / Favicons -->
+  <link rel="icon"             type="image/svg+xml" href="assets/logo.svg" />
+  <link rel="apple-touch-icon" sizes="180x180"  href="assets/apple-touch-icon.png" />
+  <link rel="manifest"                          href="site.webmanifest" />
+  <meta name="theme-color" content="#143C64" />
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["LocalBusiness", "GeneralContractor"],
+        "@id": "https://empresa-constructora.vercel.app/#business",
+        "name": "Empresa Constructora",
+        "url": "https://empresa-constructora.vercel.app/",
+        "logo": "https://empresa-constructora.vercel.app/assets/logo.svg",
+        "image": "https://empresa-constructora.vercel.app/assets/og-image.jpg",
+        "description": "Constructora integral con más de 15 años de experiencia. Especialistas en obras hospitalarias de alta complejidad, comerciales, industriales y residenciales en Buenos Aires.",
+        "telephone": "+5491166873282",
+        "email": "mateoquaranta@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Av. del Libertador 5000",
+          "addressLocality": "CABA",
+          "addressRegion": "Buenos Aires",
+          "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -34.5895,
+          "longitude": -58.3974
+        },
+        "areaServed": {
+          "@type": "AdministrativeArea",
+          "name": "Buenos Aires, Argentina"
+        },
+        "sameAs": [
+          "https://www.instagram.com/mate.qnt/",
+          "https://wa.me/5491166873282"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://empresa-constructora.vercel.app/#website",
+        "url": "https://empresa-constructora.vercel.app/",
+        "name": "Empresa Constructora",
+        "inLanguage": "es-AR"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Barlow:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    crossorigin="anonymous"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/chat-contacto.css" />
+  <link rel="stylesheet" href="css/responsive.css?v=2" />
+
+</head>
+
+<body>
+
+  <!-- ══════════════════════════════════════════════════════
+       NAVEGACIÓN
+  ══════════════════════════════════════════════════════ -->
+  <header>
+    <nav class="nav" role="navigation" aria-label="Navegación principal">
+      <div class="container nav__inner">
+
+        <!-- Logo -->
+        <a href="#inicio" class="nav__logo" aria-label="Empresa Constructora — inicio">
+          <img
+            src="assets/logo.svg"
+            alt="Empresa Constructora"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';"
+          />
+          <!-- Fallback si no carga la imagen -->
+          <div class="nav__logo-fallback" style="display:none;">
+            <span class="logo-name">EMPRESA</span>
+            <span class="logo-sub">constructora</span>
+          </div>
+        </a>
+
+        <!-- Links -->
+        <ul class="nav__menu" role="list" id="nav-menu">
+          <li><a href="#inicio"    class="nav__link">Inicio</a></li>
+          <li><a href="#servicios" class="nav__link">Servicios</a></li>
+          <li><a href="#portfolio" class="nav__link">Portfolio</a></li>
+          <li><a href="#nosotros" class="nav__link">Nosotros</a></li>
+          <li><a href="#clientes"  class="nav__link">Clientes</a></li>
+          <li><a href="#contacto"  class="nav__link nav__link--cta">Contacto</a></li>
+        </ul>
+
+        <!-- Redes sociales (desktop) -->
+        <div class="nav__social" aria-label="Redes sociales">
+          <a href="https://www.instagram.com/mate.qnt/" target="_blank" rel="noopener" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://wa.me/5491166873282" target="_blank" rel="noopener" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="mailto:mateoquaranta@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+
+        <!-- Hamburguesa -->
+        <button class="nav__hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ══════════════════════════════════════════════════════
+         HERO
+    ══════════════════════════════════════════════════════ -->
+    <section id="inicio" class="hero" aria-label="Inicio">
+      <video class="hero__video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+        <source src="assets/hero.mp4" type="video/mp4">
+      </video>
+      <div class="hero__overlay"></div>
+
+      <div class="container hero__content">
+        <p class="hero__eyebrow">Empresa Constructora</p>
+
+        <!--
+          FIX SEO: el H1 original decía solo "querés llegar" — sin sujeto ni contexto.
+          Google no podía extraer el tema de la página desde el H1.
+          Solución: "Sabemos donde" entra al H1 como span con display:block.
+          - Visualmente idéntico: mismo tamaño, color y posición.
+          - Semánticamente correcto: el H1 ahora lee "Sabemos donde querés llegar".
+          - La animación la controla el H1 padre (opacity 0→1 a los 0.4s).
+          - animation:none en el span evita el doble-fade que rompería la entrada.
+        -->
+        <h1 class="hero__headline">
+          <span
+            class="hero__subheadline"
+            style="display:block; animation:none; opacity:1; transform:none;"
+          >SABEMOS</span>
+          <em>DONDE</em><br>QUERÉS LLEGAR
+        </h1>
+
+        <p class="hero__body">
+          Empresa constructora integral con más de 15 años de experiencia. Especialistas en
+          obras hospitalarias de alta complejidad, comerciales, industriales y residenciales
+          en Buenos Aires.
+        </p>
+        <div class="hero__actions">
+          <a href="#portfolio" class="btn btn--primary">
+            <i class="fa-solid fa-images" aria-hidden="true"></i> Ver Portfolio
+          </a>
+          <a href="#contacto" class="btn btn--outline" style="color:var(--color-blanco); border-color:rgba(255,255,255,0.5);">
+            Consultanos
+          </a>
+        </div>
+      </div>
+
+      <div class="hero__scroll-hint" aria-hidden="true">
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         SERVICIOS
+    ══════════════════════════════════════════════════════ -->
+    <section id="servicios" aria-labelledby="servicios-title">
+      <div class="container">
+
+        <div class="servicios__header reveal">
+          <span class="section-accent" aria-hidden="true"></span>
+          <h2 class="section-title" id="servicios-title"
+              style="font-size:clamp(var(--text-3xl),4vw,var(--text-5xl)); margin-bottom:var(--space-10);">
+            Servicios
+          </h2>
+        </div>
+
+        <div class="servicios__cards">
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-1">
+            <i class="fa-solid fa-house servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Obra residencial en barrios cerrados</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-2">
+            <i class="fa-solid fa-industry servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Obra a industrias y comercio</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-3">
+            <i class="fa-solid fa-hospital servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Obra hospitalaria</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-4">
+            <i class="fa-solid fa-drafting-compass servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Diseño y proyectos de arquitectura</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-5">
+            <i class="fa-solid fa-couch servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Diseño de interiores</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-1">
+            <i class="fa-solid fa-pen-ruler servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Diseño de mobiliarios</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-2">
+            <i class="fa-solid fa-calculator servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Cálculos de ingeniería civil</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-3">
+            <i class="fa-solid fa-file-lines servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Documentación técnica</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-4">
+            <i class="fa-solid fa-helmet-safety servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Ejecución integral de obra</h3>
+          </article>
+
+          <article class="servicio-card servicio-card--skeleton reveal delay-5">
+            <i class="fa-solid fa-magnifying-glass-chart servicio-card__icon" aria-hidden="true"></i>
+            <h3 class="servicio-card__title">Dirección y seguimiento de obra</h3>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         PORTFOLIO
+    ══════════════════════════════════════════════════════ -->
+    <section id="portfolio" aria-labelledby="portfolio-title">
+      <div class="container">
+
+        <div class="portfolio__header reveal">
+          <span class="section-accent" aria-hidden="true"></span>
+          <h2 class="section-title" id="portfolio-title"
+              style="font-size:clamp(var(--text-3xl),4vw,var(--text-5xl));">
+            Portfolio
+          </h2>
+
+          <div id="portfolio-filters" class="portfolio__filters" role="group" aria-label="Filtrar obras">
+            <!-- Generado por portfolio.js -->
+          </div>
+        </div>
+
+        <div
+          id="portfolio-grid"
+          class="portfolio__grid"
+          role="list"
+          aria-label="Galería de obras"
+          aria-live="polite"
+        >
+          <!-- Generado dinámicamente por portfolio.js -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         QUIENES SOMOS
+    ══════════════════════════════════════════════════════ -->
+    <section id="nosotros" aria-labelledby="nosotros-title">
+      <div class="container">
+        <div class="nosotros__grid">
+
+          <!-- Título -->
+          <div class="nosotros__header reveal-right">
+            <span class="section-accent" aria-hidden="true"></span>
+            <span class="section-label">Quiénes somos</span>
+            <h2 class="section-title" id="nosotros-title"
+                style="font-size:clamp(var(--text-3xl),4vw,var(--text-5xl)); margin-bottom:0;">
+              Más de 15 años construyendo con precisión
+            </h2>
+          </div>
+
+          <!-- Imagen / lado visual -->
+          <div class="nosotros__visual reveal-left" style="position:relative;">
+            <img
+              class="nosotros__img"
+              src="assets/nosotros-principal.jpg"
+              alt="Equipo de Empresa Constructora en obra"
+              loading="lazy"
+              decoding="async"
+            />
+            <div class="nosotros__badge">
+              <span class="nosotros__badge-num">15</span>
+              <span class="nosotros__badge-text">años en el mercado</span>
+            </div>
+          </div>
+
+          <!-- Descripción -->
+          <div class="nosotros__body reveal-right">
+            <p class="nosotros__text">
+              Empresa Constructora nació hace más de 15 años como una empresa constructora integral,
+              especializada en <strong>unidades de alta complejidad en centros de salud</strong>.
+            </p>
+            <p class="nosotros__text">
+              A lo largo de los años, las exigencias de estas obras — seguimiento integral del proceso,
+              higiene continua, plazos estrictos y terminaciones rigurosas — nos permitieron expandir
+              nuestros servicios a obras comerciales, industriales y residenciales de diversas escalas.
+            </p>
+            <p class="nosotros__text">
+              Hoy nuestro equipo se dedica a la gestión integral de cada proyecto, abarcando todas las
+              etapas desde el diseño inicial hasta la finalización de la obra.
+              <strong>Nuestro objetivo es satisfacer las necesidades de cada cliente con el
+              compromiso y profesionalismo que nos caracterizan.</strong>
+            </p>
+
+            <div class="nosotros__pilares">
+              <div class="pilar">
+                <i class="fa-solid fa-shield-halved" aria-hidden="true"></i>
+                <div>
+                  <p class="pilar-title">Compromiso total</p>
+                  <p class="pilar-desc">Acompañamos cada etapa desde el primer plano hasta la entrega.</p>
+                </div>
+              </div>
+              <div class="pilar">
+                <i class="fa-solid fa-clock" aria-hidden="true"></i>
+                <div>
+                  <p class="pilar-title">Cumplimiento de plazos</p>
+                  <p class="pilar-desc">Planificación precisa y seguimiento continuo en cada obra.</p>
+                </div>
+              </div>
+              <div class="pilar">
+                <i class="fa-solid fa-star" aria-hidden="true"></i>
+                <div>
+                  <p class="pilar-title">Terminaciones rigurosas</p>
+                  <p class="pilar-desc">Estándares hospitalarios aplicados a todas nuestras obras.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         PROCESO
+    ══════════════════════════════════════════════════════ -->
+    <section id="proceso" aria-labelledby="proceso-title">
+      <div class="container">
+
+        <div class="proceso__header reveal">
+          <span class="section-accent" style="margin-inline:auto;" aria-hidden="true"></span>
+          <h2 class="section-title" id="proceso-title">Nuestro proceso</h2>
+        </div>
+
+        <ol class="proceso__steps">
+          <li class="proceso__step reveal delay-1">
+            <div class="proceso__step-num">01</div>
+            <div>
+              <h3 class="proceso__step-title">Consulta</h3>
+              <p class="proceso__step-desc">Escuchamos tu proyecto y elaboramos una propuesta técnica y económica sin cargo.</p>
+            </div>
+          </li>
+          <li class="proceso__step reveal delay-2">
+            <div class="proceso__step-num">02</div>
+            <div>
+              <h3 class="proceso__step-title">Diseño</h3>
+              <p class="proceso__step-desc">Desarrollamos planos, renders y documentación. Ajustamos hasta que todo esté perfecto.</p>
+            </div>
+          </li>
+          <li class="proceso__step reveal delay-3">
+            <div class="proceso__step-num">03</div>
+            <div>
+              <h3 class="proceso__step-title">Ejecución</h3>
+              <p class="proceso__step-desc">Gestionamos materiales, personal y plazos. Seguimiento permanente de cada etapa.</p>
+            </div>
+          </li>
+          <li class="proceso__step reveal delay-4">
+            <div class="proceso__step-num">04</div>
+            <div>
+              <h3 class="proceso__step-title">Entrega</h3>
+              <p class="proceso__step-desc">Obra terminada con documentación completa. Soporte posventa ante cualquier consulta.</p>
+            </div>
+          </li>
+        </ol>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         CONFÍAN EN NOSOTROS
+    ══════════════════════════════════════════════════════ -->
+    <section id="clientes" aria-labelledby="clientes-title">
+      <div class="container">
+
+        <div class="reveal" style="text-align:center; margin-bottom:var(--space-12);">
+          <span class="section-accent" style="margin-inline:auto;" aria-hidden="true"></span>
+          <h2 class="section-title" id="clientes-title"
+              style="font-size:clamp(var(--text-3xl),4vw,var(--text-4xl));">
+            Confían en nosotros
+          </h2>
+        </div>
+
+        <div class="clientes__grid reveal">
+          <div class="cliente-logo"><img src="assets/clientes/cliente-1.svg" alt="Grupo Andes"          loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-2.svg" alt="Nordelta Sur"         loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-3.svg" alt="Vialco Ingeniería"    loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-4.svg" alt="Praxis Salud"         loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-5.svg" alt="Metrohábitat"         loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-6.svg" alt="Cementos del Plata"   loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-7.svg" alt="Aceros BA"            loading="lazy" decoding="async"></div>
+          <div class="cliente-logo"><img src="assets/clientes/cliente-8.svg" alt="Lumina Real Estate"   loading="lazy" decoding="async"></div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         BANDA CTA
+    ══════════════════════════════════════════════════════ -->
+    <div class="cta-band" role="complementary">
+      <div class="container cta-band__inner">
+        <div class="reveal">
+          <h2 class="cta-band__title">¿Tenés un proyecto?</h2>
+          <p class="cta-band__sub">Consultanos sin compromiso — respondemos en 24 horas.</p>
+        </div>
+        <a href="#contacto" class="btn btn--dark reveal delay-2">
+          <i class="fa-solid fa-envelope" aria-hidden="true"></i> Escribinos ahora
+        </a>
+      </div>
+    </div>
+
+
+    <!-- ══════════════════════════════════════════════════════
+         CONTACTO
+    ══════════════════════════════════════════════════════ -->
+    <section id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <div class="contacto__grid">
+
+          <!-- Info: encabezado separado para poder reordenar en mobile -->
+          <div class="reveal-left contacto__header-block">
+            <span class="section-accent" aria-hidden="true"></span>
+            <span class="section-label">Hablemos</span>
+            <h2 class="section-title" id="contacto-title"
+                style="font-size:clamp(var(--text-3xl),4vw,var(--text-5xl)); margin-bottom:0;">
+              Contacto
+            </h2>
+          </div>
+
+          <!-- Info: cuerpo (párrafo + datos + mapa) -->
+          <div class="reveal-left contacto__body-block">
+            <p class="contacto__info p" style="font-size:var(--text-base);color:var(--color-gris-700);line-height:1.8;margin-bottom:var(--space-10);">
+              Dejanos tu consulta y te contactamos a la brevedad.
+              También podés visitarnos en nuestra oficina.
+            </p>
+
+            <address class="contacto__items">
+
+              <div class="contacto__item">
+                <div class="contacto__item-icon"><i class="fa-solid fa-location-dot"></i></div>
+                <div>
+                  <p class="contacto__item-label">Dirección</p>
+                  <p class="contacto__item-value">
+                    Av. del Libertador 5000, CABA<br>Buenos Aires, Argentina
+                  </p>
+                </div>
+              </div>
+
+              <div class="contacto__item">
+                <div class="contacto__item-icon"><i class="fa-solid fa-phone"></i></div>
+                <div>
+                  <p class="contacto__item-label">Teléfono / WhatsApp</p>
+                  <p class="contacto__item-value">
+                    <a href="https://wa.me/5491166873282" target="_blank" rel="noopener">
+                      +54 11 6687-3282
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="contacto__item">
+                <div class="contacto__item-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div>
+                  <p class="contacto__item-label">Email</p>
+                  <p class="contacto__item-value">
+                    <a href="mailto:mateoquaranta@gmail.com">mateoquaranta@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="contacto__item">
+                <div class="contacto__item-icon"><i class="fa-brands fa-instagram"></i></div>
+                <div>
+                  <p class="contacto__item-label">Instagram</p>
+                  <p class="contacto__item-value">
+                    <a href="https://www.instagram.com/mate.qnt/" target="_blank" rel="noopener">
+                      @mate.qnt
+                    </a>
+                  </p>
+                </div>
+              </div>
+
+            </address>
+
+            <div style="margin-top:var(--space-8); border-radius:var(--radius-md); overflow:hidden; line-height:0;">
+              <iframe
+                src="https://www.google.com/maps?q=Av.+del+Libertador+5000,+CABA&output=embed"
+                width="100%"
+                height="240"
+                style="border:0; display:block;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Ubicación de Empresa Constructora — Av. del Libertador 5000, CABA, Buenos Aires"
+              ></iframe>
+            </div>
+
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ══════════════════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__top">
+
+        <!-- Brand -->
+        <div>
+          <div class="footer__logo">
+            <img src="assets/logo.svg" alt="Empresa Constructora"
+              onerror="this.style.display='none';" />
+          </div>
+          <p class="footer__tagline">
+            Empresa constructora integral especializada en obras de alta complejidad.
+            Comprometidos con la calidad y los plazos en cada proyecto.
+          </p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/mate.qnt/" target="_blank" rel="noopener" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/5491166873282" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="mailto:mateoquaranta@gmail.com" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Navegación -->
+        <div>
+          <p class="footer__col-title">Navegación</p>
+          <ul class="footer__links">
+            <li><a href="#inicio"    class="footer__link">Inicio</a></li>
+            <li><a href="#servicios" class="footer__link">Servicios</a></li>
+            <li><a href="#portfolio" class="footer__link">Portfolio</a></li>
+            <li><a href="#nosotros"  class="footer__link">Quiénes somos</a></li>
+            <li><a href="#contacto"  class="footer__link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!-- Servicios -->
+        <div>
+          <p class="footer__col-title">Servicios</p>
+          <ul class="footer__links">
+            <li><a href="#servicios" class="footer__link">Obra hospitalaria</a></li>
+            <li><a href="#servicios" class="footer__link">Obra comercial e industrial</a></li>
+            <li><a href="#servicios" class="footer__link">Obra residencial</a></li>
+            <li><a href="#servicios" class="footer__link">Diseño y proyectos</a></li>
+            <li><a href="#servicios" class="footer__link">Diseño de interiores</a></li>
+            <li><a href="#servicios" class="footer__link">Ingeniería civil</a></li>
+          </ul>
+        </div>
+
+        <!-- Contacto -->
+        <div>
+          <p class="footer__col-title">Contacto</p>
+          <address>
+            <div class="footer__contact-row">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Av. del Libertador 5000, CABA, Buenos Aires</span>
+            </div>
+            <div class="footer__contact-row">
+              <i class="fa-solid fa-phone"></i>
+              <a href="https://wa.me/5491166873282">11 6687-3282</a>
+            </div>
+            <div class="footer__contact-row">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:mateoquaranta@gmail.com">mateoquaranta@gmail.com</a>
+            </div>
+            <div class="footer__contact-row">
+              <i class="fa-brands fa-instagram"></i>
+              <a href="https://www.instagram.com/mate.qnt/" target="_blank" rel="noopener">
+                @mate.qnt
+              </a>
+            </div>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copy">
+          © <span id="footer-year">2024</span> <span>Empresa Constructora</span>. Todos los derechos reservados.
+        </p>
+        <p class="footer__copy">Av. del Libertador 5000, CABA, Buenos Aires, Argentina</p>
+        <!-- FIX SEO: señal textual de servicios para crawlers — replicado del footer del sitio viejo -->
+        <p class="footer__copy" style="margin-top:var(--space-2); font-size:var(--text-xs); color:var(--color-gris-400);">
+          Obra Residencial · Obra Industrial y Comercial · Obra Hospitalaria · Diseño de Interiores y Mobiliario · Proyectos de Arquitectura · Ingeniería Civil · Pérgolas y Galerías
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Widget flotante de chat / WhatsApp -->
+  <div class="wa-widget" id="wa-widget">
+    <div class="wa-widget__panel" id="wa-panel" role="dialog" aria-label="Chat de consulta" hidden>
+      <button class="wa-widget__close" id="wa-close" aria-label="Cerrar chat"><i class="fa-solid fa-xmark"></i></button>
+      <div class="chat-contacto" id="chat-contacto" aria-label="Chat de consulta">
+
+        <header class="chat-contacto__header">
+          <div class="chat-contacto__avatar" aria-hidden="true">E</div>
+          <div class="chat-contacto__header-text">
+            <p class="chat-contacto__name">Asistente Empresa Constructora</p>
+            <p class="chat-contacto__status">
+              <span class="chat-contacto__dot" aria-hidden="true"></span>
+              En línea — responde al instante
+            </p>
+          </div>
+          <button type="button" class="chat-contacto__restart" aria-label="Reiniciar chat">
+            <i class="fa-solid fa-rotate-left"></i> Reiniciar
+          </button>
+        </header>
+
+        <div class="chat-contacto__progress" aria-hidden="true">
+          <div class="chat-contacto__progress-bar"></div>
+        </div>
+
+        <div class="chat-contacto__messages" id="chat-messages" role="log" aria-live="polite" aria-atomic="false">
+          <!-- Los mensajes se generan dinámicamente desde chat-contacto.js -->
+        </div>
+
+        <div class="chat-contacto__input-area" id="chat-input-area">
+          <!-- El input (texto, email, quick replies, etc.) se renderiza dinámicamente -->
+        </div>
+
+      </div>
+    </div>
+    <button class="wa-widget__launcher" id="wa-launcher" aria-expanded="false" aria-controls="wa-panel" aria-label="Abrir chat">
+      <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+    </button>
+  </div>
+
+
+  <!-- Scripts -->
+  <script src="js/animations.js"    defer></script>
+  <script src="js/lightbox.js"      defer></script>
+  <script src="js/portfolio.js"     defer></script>
+  <script src="js/chat-contacto.js" defer></script>
+  <script src="js/main.js"          defer></script>
+
+  <!-- Cards de categoría: al hacer clic filtran el portfolio -->
+  <script>
+    document.querySelectorAll('[data-filter-trigger]').forEach(card => {
+      card.addEventListener('click', (e) => {
+        e.preventDefault();
+        const cat = card.dataset.filterTrigger;
+        const btn = document.querySelector(`.portfolio__filter[data-filter="${cat}"]`);
+        if (btn) btn.click();
+        document.querySelector('#portfolio').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>

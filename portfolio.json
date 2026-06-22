@@ -1,0 +1,203 @@
+{
+  "categories": [
+    { "id": "todos",        "label": "Todos" },
+    { "id": "residencial",  "label": "Obra Residencial" },
+    { "id": "comercial",    "label": "Industrial y Comercial" },
+    { "id": "hospitalaria", "label": "Obra Hospitalaria" },
+    { "id": "pergolas",     "label": "Pérgolas y Galerías" }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "titulo": "Vivienda Unifamiliar en Countries",
+      "categoria": "residencial",
+      "descripcion": "Residencia de diseño contemporáneo con amplios espacios y terminaciones de primera calidad.",
+      "imagen": "assets/portfolio/obraResidencial/1.jpg",
+      "alt": "Vivienda unifamiliar moderna — Empresa Constructora"
+    },
+    {
+      "id": 2,
+      "titulo": "Casa Minimalista con Piscina",
+      "categoria": "residencial",
+      "descripcion": "Construcción de planta baja y primer piso con pileta integrada al jardín.",
+      "imagen": "assets/portfolio/obraResidencial/2.jpg",
+      "alt": "Casa minimalista con piscina — Empresa Constructora"
+    },
+    {
+      "id": 3,
+      "titulo": "Dúplex en Zona Norte",
+      "categoria": "residencial",
+      "descripcion": "Dúplex moderno con doble altura, cocina abierta y deck exterior.",
+      "imagen": "assets/portfolio/obraResidencial/3.jpg",
+      "alt": "Dúplex residencial zona norte — Empresa Constructora"
+    },
+    {
+      "id": 4,
+      "titulo": "Chalet de Madera y Hormigón",
+      "categoria": "residencial",
+      "descripcion": "Vivienda de montaña con estructura mixta de madera laminada y hormigón visto.",
+      "imagen": "assets/portfolio/obraResidencial/4.jpg",
+      "alt": "Chalet madera y hormigón — Empresa Constructora"
+    },
+    {
+      "id": 5,
+      "titulo": "Residencia con Fachada de Vidrio",
+      "categoria": "residencial",
+      "descripcion": "Casa de autor con grandes paños de vidrio y eficiencia energética pasiva.",
+      "imagen": "assets/portfolio/obraResidencial/5.jpg",
+      "alt": "Residencia fachada de vidrio — Empresa Constructora"
+    },
+    {
+      "id": 6,
+      "titulo": "Ampliación Planta Alta",
+      "categoria": "residencial",
+      "descripcion": "Refacción integral y ampliación en planta alta con suite principal y terraza.",
+      "imagen": "assets/portfolio/obraResidencial/6.jpg",
+      "alt": "Ampliación planta alta residencial — Empresa Constructora"
+    },
+    {
+      "id": 7,
+      "titulo": "Vivienda de Autor con Patio Central",
+      "categoria": "residencial",
+      "descripcion": "Proyecto de arquitectura en torno a un patio central con vegetación nativa.",
+      "imagen": "assets/portfolio/obraResidencial/7.jpg",
+      "alt": "Vivienda con patio central — Empresa Constructora"
+    },
+    {
+      "id": 8,
+      "titulo": "Complejo de Departamentos",
+      "categoria": "residencial",
+      "descripcion": "Edificio multifamiliar de 6 pisos con amenities y cocheras subterráneas.",
+      "imagen": "assets/portfolio/obraResidencial/8.jpg",
+      "alt": "Complejo de departamentos multifamiliar — Empresa Constructora"
+    },
+    {
+      "id": 9,
+      "titulo": "Edificio Corporativo Torre Norte",
+      "categoria": "comercial",
+      "descripcion": "Edificio de oficinas de 12 pisos con fachada ventilada y certificación LEED.",
+      "imagen": "assets/portfolio/obraIndustrialYComercial/1.jpg",
+      "alt": "Edificio corporativo torre norte — Empresa Constructora"
+    },
+    {
+      "id": 10,
+      "titulo": "Centro Comercial y Logístico",
+      "categoria": "comercial",
+      "descripcion": "Nave industrial con sector de showroom y oficinas administrativas integradas.",
+      "imagen": "assets/portfolio/obraIndustrialYComercial/2.jpg",
+      "alt": "Centro comercial y logístico — Empresa Constructora"
+    },
+    {
+      "id": 11,
+      "titulo": "Planta Industrial Seca",
+      "categoria": "comercial",
+      "descripcion": "Construcción llave en mano de planta productiva con estructura metálica y cubierta.",
+      "imagen": "assets/portfolio/obraIndustrialYComercial/3.jpg",
+      "alt": "Planta industrial seca — Empresa Constructora"
+    },
+    {
+      "id": 12,
+      "titulo": "Oficinas Open Space",
+      "categoria": "comercial",
+      "descripcion": "Refuncionalización de planta baja para oficinas corporativas de diseño abierto.",
+      "imagen": "assets/portfolio/obraIndustrialYComercial/4.jpg",
+      "alt": "Oficinas open space corporativas — Empresa Constructora"
+    },
+    {
+      "id": 13,
+      "titulo": "Galpón de Distribución",
+      "categoria": "comercial",
+      "descripcion": "Depósito logístico de 4000 m² con control de temperatura y acceso vehicular pesado.",
+      "imagen": "assets/portfolio/obraIndustrialYComercial/5.jpg",
+      "alt": "Galpón de distribución logística — Empresa Constructora"
+    },
+    {
+      "id": 14,
+      "titulo": "Edificio Administrativo Municipal",
+      "categoria": "comercial",
+      "descripcion": "Sede institucional de tres plantas con accesibilidad universal y sala de reuniones.",
+      "imagen": "assets/portfolio/obraIndustrialYComercial/6.jpg",
+      "alt": "Edificio administrativo municipal — Empresa Constructora"
+    },
+    {
+      "id": 15,
+      "titulo": "Clínica de Alta Complejidad",
+      "categoria": "hospitalaria",
+      "descripcion": "Construcción integral de clínica privada con quirófanos, UCI y guardia de 24 hs.",
+      "imagen": "assets/portfolio/obraHospitalaria/1.jpg",
+      "alt": "Clínica de alta complejidad — Empresa Constructora"
+    },
+    {
+      "id": 16,
+      "titulo": "Centro de Diagnóstico por Imágenes",
+      "categoria": "hospitalaria",
+      "descripcion": "Sala de tomografía y resonancia magnética con blindaje y acondicionamiento especial.",
+      "imagen": "assets/portfolio/obraHospitalaria/2.jpg",
+      "alt": "Centro de diagnóstico por imágenes — Empresa Constructora"
+    },
+    {
+      "id": 17,
+      "titulo": "Hospital Materno Infantil",
+      "categoria": "hospitalaria",
+      "descripcion": "Ala de maternidad con sala de partos, neonatología y internación pediátrica.",
+      "imagen": "assets/portfolio/obraHospitalaria/3.jpg",
+      "alt": "Hospital materno infantil — Empresa Constructora"
+    },
+    {
+      "id": 18,
+      "titulo": "Sanatorio con Internación",
+      "categoria": "hospitalaria",
+      "descripcion": "Ampliación de piso de internación con habitaciones individuales y áreas de servicio.",
+      "imagen": "assets/portfolio/obraHospitalaria/4.jpg",
+      "alt": "Sanatorio con internación — Empresa Constructora"
+    },
+    {
+      "id": 19,
+      "titulo": "Centro de Rehabilitación",
+      "categoria": "hospitalaria",
+      "descripcion": "Instalaciones de kinesiología, hidroterapia y consultorios de rehabilitación.",
+      "imagen": "assets/portfolio/obraHospitalaria/5.jpg",
+      "alt": "Centro de rehabilitación — Empresa Constructora"
+    },
+    {
+      "id": 20,
+      "titulo": "Clínica Ambulatoria Multiespecialidades",
+      "categoria": "hospitalaria",
+      "descripcion": "Centro de salud con 18 consultorios, laboratorio y área de espera climatizada.",
+      "imagen": "assets/portfolio/obraHospitalaria/6.jpg",
+      "alt": "Clínica ambulatoria multiespecialidades — Empresa Constructora"
+    },
+    {
+      "id": 21,
+      "titulo": "Pérgola de Madera y Acero",
+      "categoria": "pergolas",
+      "descripcion": "Galería exterior con estructura mixta de madera tratada y columnas de acero pintado.",
+      "imagen": "assets/portfolio/obraPergolasYGalerias/1.jpg",
+      "alt": "Pérgola de madera y acero — Empresa Constructora"
+    },
+    {
+      "id": 22,
+      "titulo": "Deck y Galería para Quincho",
+      "categoria": "pergolas",
+      "descripcion": "Espacio de entretenimiento exterior con deck de madera, parrilla y techo de policarbonato.",
+      "imagen": "assets/portfolio/obraPergolasYGalerias/2.jpg",
+      "alt": "Deck y galería para quincho — Empresa Constructora"
+    },
+    {
+      "id": 23,
+      "titulo": "Galería con Techo de Chapa Curva",
+      "categoria": "pergolas",
+      "descripcion": "Cobertura de acceso con techo de chapa galvanizada curva y pilares de hierro.",
+      "imagen": "assets/portfolio/obraPergolasYGalerias/3.jpg",
+      "alt": "Galería con techo de chapa curva — Empresa Constructora"
+    },
+    {
+      "id": 24,
+      "titulo": "Pérgola Jardín con Enredaderas",
+      "categoria": "pergolas",
+      "descripcion": "Pérgola de madera de quebracho con guías para enredaderas e iluminación incorporada.",
+      "imagen": "assets/portfolio/obraPergolasYGalerias/4.jpg",
+      "alt": "Pérgola jardín con enredaderas — Empresa Constructora"
+    }
+  ]
+}
